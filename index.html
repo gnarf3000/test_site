@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--html tells the browser that everything which follows will be interpreted as HTML Code -->
+<html lang="en" dir="ltr">
+
+<head>
+  <!--tells browser that all the text inside page is encoded using utf8 (<--is the standard)-->
+  <meta charset="utf-8">
+  <title>Tymons Test Site</title>
+</head>
+<!-- with Atom beautify it is very easy to indend the code and order it for better visibility-->
+
+<body>
+  <table cellspacing="20">
+    <tr>
+    <!--here I add an image to the page with its source mentioned (local/url)-->
+    <!--while src soecifies the main source and alt displays a text if that image can not be loaded-->
+    <!--The description of the image (alt) is important for Search Enigne Optmimisation as this info will be used-->
+    <!--a photobucket or alternative can be used to store the image online and link to it here-->
+      <td>  <img src="images/Tymon_Zaborowski.jpg" alt="image of Tymon Zaborowski" height="180" width="160">
+</td>
+      <td><h1>Tymon Zaborowski</h1>
+      <p><em>Founder of the <strong>world famous</strong> <a href="https://en.m.wikipedia.org/wiki/Bakery">Zaborowski Sourdough Bakery</a></em></p>
+      <p>I started experimenting with ❤ Sourdough bread in 2019. Soon I discovered how delightful artisanal baking can be
+        and was baking away more days of the week than not. In 2021 I founded the first Zaborowski bakery branch in Mexico. Since
+        then we have been serving up delisciously crusty bread taking over Mexico one slice at a time.</p></td>
+    </tr>
+  </table>
+    <hr>
+  <h3>Skills</h3>
+<!--here i am nesting to tables into each other to achieve a table with a seperate table inside-->
+<!--This is done for the learning effect. However, styling is done normally with CSS for easier editing,
+HTML I am just using for the basic structure-->
+<table cellspacing="10">
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>Handling Air very tightly</td>
+          <td>🌟🌟🌟🌟</td>
+          <td>balancing a beer on my belly</td>
+          <td>🌟🌟🌟🌟🌟</td>
+        </tr>
+        <tr>
+          <td>catching flies in the office(any office!)</td>
+          <td>🌟🌟🌟</td>
+          <td>alerting mgmt to the empty water cooler</td>
+          <td>🌟🌟</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <!--an example for an unordered list with bullet points and no indention-->
+  <ul>
+    <li>School, which school?</li>
+    <li>Education, which education?</li>
+    <li>Sourdough all the way and everyday!</li>
+  </ul>
+  <hr>
+  <h3>Work experience</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2012-2013</td>
+        <td>Lead Soda Drinker on the Machine</td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>Researching the black hole in my wallet</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  <hr>
+
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact.html">Contact Me</a>
+</body>
+
+</html>
